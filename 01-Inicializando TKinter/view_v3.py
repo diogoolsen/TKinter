@@ -14,7 +14,7 @@ class View():
         self.bottomContainer.pack()
 
         self.containerRecebeDados(self.topContainer)
-        self.containerExibeDados(self.topContainer)
+        self.containerExibeDados(self.bottomContainer)
 
         # Adiciona um evento ao botão esc
         self.root.bind('<Escape>', self.close)

@@ -18,7 +18,7 @@ class View():
 
         # Adiciona os componentes AO container
         self.containerRecebeDados(self.topContainer)
-        self.containerExibeDados(self.topContainer)
+        self.containerExibeDados(self.bottomContainer)
 
         self.root.mainloop()
 
