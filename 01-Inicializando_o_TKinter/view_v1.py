@@ -4,7 +4,8 @@ import tkinter
 
 class View():
     """
-    Classe View - Responsável pela construção e apresentação da interface gráfica
+    Classe View - Responsável pela construção
+    e apresentação da interface gráfica
     """
 
     def __init__(self):
@@ -15,8 +16,6 @@ class View():
         #
         # Operação BLOQUEANTE
         self.root.mainloop()
-
-        print('OLA')
 
 
 Janela = View()
