@@ -12,9 +12,11 @@ class View():
         self.root = tkinter.Tk()
 
         # loop principal
-        # 
+        #
         # Operação BLOQUEANTE
         self.root.mainloop()
+
+        print('OLA')
 
 
 Janela = View()
